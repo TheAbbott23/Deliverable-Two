@@ -17,12 +17,12 @@ for (let i = 0; i < golfholes; i++) {
 console.log (total)
 
 if (total === par )    
-{alert("Good game " + name + ". Your total par was: 0");
+{console.log ("Good game " + name + ". Your total par was: 0");
 }
 
-else if (total <par) {alert ("Great job, "+name+"! Your total par was" +(total-par)+".") } 
+else if (total <par) {console.log ("Great job, "+name+"! Your total par was" +(total-par)+".") } 
 
-else if (total >par) {alert ("Nice try, "+name+"...Your total par was "+(total-par)+".")}
+else if (total >par) {console.log("Nice try, "+name+"...Your total par was "+(total-par)+".")}
 
 
 
